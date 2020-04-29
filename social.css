@@ -1,0 +1,37 @@
+.social{
+    position: fixed;
+    left: 0px;
+    top: 155px;
+    z-index: 1001;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.social ul{
+    list-style: none;
+}
+
+.social ul li a{
+    margin:0;
+    font-size: 23px;
+    display: block;
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    -webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease
+}
+
+.social ul li .facebook {background: #3b5998;}
+.social ul li .twitter {background: #00abf0;}
+.social ul li .instagram {background: #B453D9;}
+.social ul li .yt {background: #EA203F;}
+.social ul li .mail {background: #666666;}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: black;
+}
