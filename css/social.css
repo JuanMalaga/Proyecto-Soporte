@@ -1,37 +1,33 @@
 .social{
     position: fixed;
     left: 0px;
-    top: 155px;
+    top: 180px;
     z-index: 1001;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing: border-box;
-    overflow: hidden;
 }
 
-.social ul{
-    list-style: none;
-}
-
-.social ul li a{
+.redsocial{
+    position: relative;
+    left: -20px;
     margin:0;
     font-size: 23px;
     display: block;
     color: white;
-    background: black;
-    padding: 10px 20px;
-    -webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease
+    padding: 10px 10px 10px 30px;
 }
 
-.social ul li .facebook {background: #3b5998;}
-.social ul li .twitter {background: #00abf0;}
-.social ul li .instagram {background: #B453D9;}
-.social ul li .yt {background: #EA203F;}
-.social ul li .mail {background: #666666;}
-
-.social ul li a:hover{
-    padding: 10px 30px;
-    background: black;
+ul a:hover li{
+    position: relative;
+    left: -4px;
 }
+
+.social ul a#facebook li{background: #3b5998;}
+.social ul a#twitter li{background: #00abf0;}
+.social ul a#fisi li{background: rgb(44, 102, 228);  padding: 5px 10px 0px 30px; }
+.social ul a#youtube li{background: #EA203F;}
+.social ul a#email li{background: #666666}
+
+.social ul a#facebook:hover li{background: black;transition:background .4s ease-out;}
+.social ul a#twitter:hover li{background: black;transition:background .4s ease-out;}
+.social ul a#fisi:hover li{background: black;transition:background .4s ease-out;}
+.social ul a#youtube:hover li{background: black;transition:background .4s ease-out;}
+.social ul a#email:hover li{background: black;transition:background .4s ease-out;}
