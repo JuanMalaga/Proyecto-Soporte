@@ -1,0 +1,44 @@
+/* PATRON DE COLORES */
+/* FUENTES */
+html {
+  font-size: 13px; }
+
+body {
+  font-family: 'Amatic SC', cursive; }
+
+/* MEDIA QUERY */
+@media (min-width: 768px) {
+  html {
+    font-size: 20px; } }
+/* SOBREESCRIBIENDO BOOTSTRAP */
+.bg-primary {
+  background-color: #e78a10 !important; }
+
+.text-primary {
+  color: #e78a10 !important; }
+
+#servidor {
+  width: 300px; }
+
+.btn-primary {
+  background-color: #e78a10 !important;
+  border-color: #885109 !important; }
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #cf7c0e !important; }
+
+.btn-primary:active {
+  background-color: #885109 !important;
+  border-color: #583506 !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(231, 138, 16, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(231, 138, 16, 0.5) !important; }
+
+.carrusel {
+  width: 300px; }
+
+.redes {
+  width: 60px; }
+
+/*# sourceMappingURL=estilos.css.map */
