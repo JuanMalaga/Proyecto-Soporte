@@ -44,3 +44,7 @@ header{
     margin: auto;
     overflow:hidden;
 }
+
+.main{
+    margin-top: 40px;
+}
