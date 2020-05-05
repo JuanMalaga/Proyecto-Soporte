@@ -1,0 +1,160 @@
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+header{
+  position:relative;
+  margin:20px auto;
+  width:1000px;
+  height:120px;
+}
+#logo{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 800px;
+  height: 60px;
+  font-size: 40px;
+  font-family: 'Anton', sans-serif;
+}
+.redes{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.red{
+  width: 50px;
+  height: 50px;
+  margin: 2px 0px;
+}
+#icono1{
+  top: 42px;
+  right: 120px;
+  margin: 0 5px;
+}
+#icono2{
+  top: 42px;
+  right: 70px;
+  margin: 0 5px;
+}
+#icono3{
+  top: 42px;
+  right: 19px;
+  margin: 0 5px;
+}
+nav{
+  position:relative;
+  margin:auto;
+  width:1000px;
+  height:48px;
+}
+.botones{
+  float: left;
+  width: 246px;
+  height: 48px;
+  margin:0px 2px;
+  background: black;
+  color:white;
+  text-align:center;
+  line-height:48px;
+}
+.botones:hover{
+  background: rgba(0,0,0,0.5);
+}
+#top{
+  position:relative;
+  margin:20px auto;
+  width:1000px;
+  height:192px;
+}
+#presentacion{
+  position: relative;
+  width: 1000px;
+  height:450px;
+  margin:0 auto;
+  display: flex;
+}
+#presentacion ul li{
+  width: 500px;
+  height: 210px;
+  background:rgba(99, 99, 99,0.3);
+  margin: 10px 0px;
+  text-align:center;
+  border-radius: 20px 20px 20px 20px ;
+}
+#presentacion img{
+  position: relative;
+   width:490px;
+   height:430px;
+   margin: 10px 0px 10px 5px;
+}
+#proyectos{
+  position: relative;
+  width:1000px;
+  height:400px;
+
+  margin: 0 auto;
+  text-align:center;
+}
+#proyectos li{
+  position: relative;
+  width:1000px;
+  height:100px;
+  background:rgba(0, 0, 255,0.3);
+  margin: 10px auto;
+  Font-size: 40px;
+  border-radius: 20px 20px 20px 20px;
+}
+#proyectos li a{
+  text-decoration: none;
+}
+section{
+  position:relative;
+  margin:50px auto;
+  width:1000px;
+  height:925px;
+  background:#aaa;
+}
+aside#izq{
+  position:relative;
+  left: 0;
+  top: 0;
+  width:200px;
+  height:925px;
+  background:#333;
+}
+aside#der{
+  position:absolute;
+  right: 0;
+  top: 0;
+  width:200px;
+  height:925px;
+  background:#333;
+}
+article{
+  position:absolute;
+  left: 200px;
+  top: 0;
+  width:600px;
+  height:925px;
+}
+#busPract{
+  width:600px;
+  height:925px;
+}
+footer{
+  position:relative;
+  margin:20px auto;
+  width:1010px;
+  height:120px;
+}
+footer li{
+  float: left;
+  width: 326px;
+  height:120px;
+  margin: 0px 5px;
+  font-size:20px;
+}
